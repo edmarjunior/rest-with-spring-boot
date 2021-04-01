@@ -1,0 +1,7 @@
+nvm flyway:migrate
+
+** DOCKER
+
+    docker login docker.io
+
+    docker push {nomeDaImagem}
