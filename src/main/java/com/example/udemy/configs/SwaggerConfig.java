@@ -40,7 +40,7 @@ public class SwaggerConfig {
     }
 
     private ApiInfo getInfo() {
-        return new ApiInfo("RESTFul API With Spring Boot",
+        return new ApiInfo("RESTFul API With Spring Boot - Foo Bar",
                 "Some description about API",
                 "v1",
                 "Terms of Service URL",

@@ -1,7 +1,11 @@
-nvm flyway:migrate
+
+mvn clean install // gera um arquivo .jar da aplicação
+
+mvn flyway:migrate // roda os arquivos de migrations da aplicação
+
 
 ** DOCKER
 
-    docker login docker.io
+    docker login docker.io // faz login no dockerhub
 
-    docker push {nomeDaImagem}
+    docker push {nomeDaImagem} // envia uma imagen para o dockerHub
